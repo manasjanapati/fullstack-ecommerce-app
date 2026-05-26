@@ -21,7 +21,8 @@ public class CorsConfig {
         config.setAllowedOrigins(
                 List.of(
                         "http://localhost:5173",
-                        "https://fullstack-ecommerce-app-sepia.vercel.app/"
+                        "https://fullstack-ecommerce-app-sepia.vercel.app/",
+                        "https://manasjanapati-ecommerce.vercel.app"
                     
                 )
         );
