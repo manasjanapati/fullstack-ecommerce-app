@@ -8,10 +8,10 @@ A modern, production-style fullstack e-commerce web application built using Reac
 
 ## Frontend
 
-Add your Vercel URL here
+Vercel URL
 
 ```text id="a1b2c3"
-[https://your-frontend.vercel.app](https://manasjanapati-ecommerce.vercel.app/)
+[https://manasjanapati-ecommerce.vercel.app/](https://manasjanapati-ecommerce.vercel.app/)
 ```
 
 ---
@@ -21,7 +21,7 @@ Add your Vercel URL here
 Add your Render URL here
 
 ```text id="d4e5f6"
-[https://your-backend.onrender.com](https://fullstack-ecommerce-app-n988.onrender.com/)
+[https://fullstack-ecommerce-app-n988.onrender.com/](https://fullstack-ecommerce-app-n988.onrender.com/)
 ```
 
 ---
