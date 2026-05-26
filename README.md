@@ -10,19 +10,15 @@ A modern, production-style fullstack e-commerce web application built using Reac
 
 Vercel URL
 
-```text id="a1b2c3"
-[https://manasjanapati-ecommerce.vercel.app/](https://manasjanapati-ecommerce.vercel.app/)
-```
+https://manasjanapati-ecommerce.vercel.app/
 
 ---
 
 ## Backend API
 
-Add your Render URL here
+Render URL
 
-```text id="d4e5f6"
-[https://fullstack-ecommerce-app-n988.onrender.com/](https://fullstack-ecommerce-app-n988.onrender.com/)
-```
+https://fullstack-ecommerce-app-n988.onrender.com/
 
 ---
 
@@ -30,74 +26,74 @@ Add your Render URL here
 
 ## Frontend
 
-* React
-* Vite
-* React Router DOM
-* Axios
-* CSS3
+- React
+- Vite
+- React Router DOM
+- Axios
+- CSS3
 
 ---
 
 ## Backend
 
-* Spring Boot
-* Spring Security
-* JWT Authentication
-* Hibernate / JPA
-* Maven
+- Spring Boot
+- Spring Security
+- JWT Authentication
+- Hibernate / JPA
+- Maven
 
 ---
 
 ## Database
 
-* PostgreSQL
-* Neon PostgreSQL Cloud Database
+- PostgreSQL
+- Neon PostgreSQL Cloud Database
 
 ---
 
 ## Cloud Services
 
-* Cloudinary (Image Uploads)
-* Render (Backend Deployment)
-* Vercel (Frontend Deployment)
+- Cloudinary (Image Uploads)
+- Render (Backend Deployment)
+- Vercel (Frontend Deployment)
 
 ---
 
 # Features
 
-# Authentication & Authorization
+## Authentication & Authorization
 
-* User Registration
-* User Login
-* JWT Authentication
-* Role-Based Authorization
-* Admin Protected Routes
-
----
-
-# Customer Features
-
-* Browse Products
-* Product Details Page
-* Add To Cart
-* Cart Management
-* Checkout & Place Orders
-* View Orders
-* Product Ratings
-* Search Products
-* Category Filtering
+- User Registration
+- User Login
+- JWT Authentication
+- Role-Based Authorization
+- Admin Protected Routes
 
 ---
 
-# Admin Features
+## Customer Features
 
-* Admin Dashboard
-* Product Management
-* Product Image Upload
-* Category Management
-* Hierarchical Categories
-* Order Management
-* Soft Delete System
+- Browse Products
+- Product Details Page
+- Add To Cart
+- Cart Management
+- Checkout & Place Orders
+- View Orders
+- Product Ratings
+- Search Products
+- Category Filtering
+
+---
+
+## Admin Features
+
+- Admin Dashboard
+- Product Management
+- Product Image Upload
+- Category Management
+- Hierarchical Categories
+- Order Management
+- Soft Delete System
 
 ---
 
@@ -105,18 +101,18 @@ Add your Render URL here
 
 ## Product Rating System
 
-* Verified purchase ratings
-* One-time product rating
-* Rating count tracking
-* Average rating calculation
+- Verified purchase ratings
+- One-time product rating
+- Rating count tracking
+- Average rating calculation
 
 ---
 
 ## Image Upload System
 
-* Cloudinary Integration
-* Secure image hosting
-* Product image management
+- Cloudinary Integration
+- Secure image hosting
+- Product image management
 
 ---
 
@@ -126,15 +122,15 @@ Products are not permanently removed from the database.
 
 This protects:
 
-* order history
-* product analytics
-* historical data consistency
+- order history
+- product analytics
+- historical data consistency
 
 ---
 
 # Project Architecture
 
-```text id="j1k2l3"
+```text
 Frontend (React + Vite)
         ↓
 REST API (Spring Boot)
@@ -148,7 +144,7 @@ Cloudinary Image Hosting
 
 # Folder Structure
 
-```text id="m4n5o6"
+```text
 fullstack-ecommerce-app/
 │
 ├── backend/
@@ -171,7 +167,7 @@ fullstack-ecommerce-app/
 
 ## Clone Repository
 
-```bash id="p7q8r9"
+```bash
 git clone https://github.com/manasjanapati/fullstack-ecommerce-app.git
 ```
 
@@ -179,7 +175,7 @@ git clone https://github.com/manasjanapati/fullstack-ecommerce-app.git
 
 ## Navigate to Backend
 
-```bash id="s0t1u2"
+```bash
 cd backend
 ```
 
@@ -189,13 +185,13 @@ cd backend
 
 Create:
 
-```text id="v3w4x5"
+```text
 .env
 ```
 
 Example:
 
-```env id="y6z7a8"
+```env
 SPRING_DATASOURCE_URL=your_database_url
 
 SPRING_DATASOURCE_USERNAME=your_username
@@ -215,13 +211,13 @@ CLOUDINARY_API_SECRET=your_api_secret
 
 ## Run Backend
 
-```bash id="b9c0d1"
+```bash
 ./mvnw spring-boot:run
 ```
 
 Backend runs on:
 
-```text id="e2f3g4"
+```text
 http://localhost:8080
 ```
 
@@ -231,7 +227,7 @@ http://localhost:8080
 
 ## Navigate to Frontend
 
-```bash id="h5i6j7"
+```bash
 cd frontend
 ```
 
@@ -239,7 +235,7 @@ cd frontend
 
 ## Install Dependencies
 
-```bash id="k8l9m0"
+```bash
 npm install
 ```
 
@@ -249,13 +245,13 @@ npm install
 
 Create:
 
-```text id="n1o2p3"
+```text
 .env
 ```
 
 Add:
 
-```env id="q4r5s6"
+```env
 VITE_API_BASE_URL=http://localhost:8080/api
 ```
 
@@ -263,13 +259,13 @@ VITE_API_BASE_URL=http://localhost:8080/api
 
 ## Run Frontend
 
-```bash id="t7u8v9"
+```bash
 npm run dev
 ```
 
 Frontend runs on:
 
-```text id="w0x1y2"
+```text
 http://localhost:5173
 ```
 
@@ -279,94 +275,99 @@ http://localhost:5173
 
 ## Authentication
 
-* JWT-based authentication
-* Stateless sessions
-* Secure endpoints
+- JWT-based authentication
+- Stateless sessions
+- Secure endpoints
 
 ---
 
 ## Products
 
-* CRUD operations
-* Pagination
-* Filtering
-* Search
-* Ratings
+- CRUD operations
+- Pagination
+- Filtering
+- Search
+- Ratings
 
 ---
 
 ## Orders
 
-* Place orders
-* Track orders
-* Order history
+- Place orders
+- Track orders
+- Order history
 
 ---
 
 # Deployment
 
-# Frontend Deployment
+## Frontend Deployment
 
 Deployed using:
 
-[Vercel](https://vercel.com)
+- Vercel  
+  https://vercel.com
 
 ---
 
-# Backend Deployment
+## Backend Deployment
 
 Deployed using:
 
-[Render](https://render.com)
+- Render  
+  https://render.com
 
 ---
 
-# Database Hosting
+## Database Hosting
 
 Hosted on:
 
-[Neon PostgreSQL](https://neon.tech)
+- Neon PostgreSQL  
+  https://neon.tech
 
 ---
 
-# Image Hosting
+## Image Hosting
 
 Powered by:
 
-[Cloudinary](https://cloudinary.com)
+- Cloudinary  
+  https://cloudinary.com
 
 ---
 
 # Security Features
 
-* JWT Authentication
-* Environment Variable Configuration
-* Role-Based Access Control
-* Secure Cloudinary Integration
-* Protected Admin APIs
+- JWT Authentication
+- Environment Variable Configuration
+- Role-Based Access Control
+- Secure Cloudinary Integration
+- Protected Admin APIs
 
 ---
 
 # Future Improvements
 
-* Product Reviews with Comments
-* Payment Gateway Integration
-* Wishlist System
-* Coupon System
-* Inventory Analytics
-* Admin Sales Dashboard
-* Recommendation Engine
-* Email Notifications
-* Order Tracking Timeline
-* Multi-Vendor Marketplace
+- Product Reviews with Comments
+- Payment Gateway Integration
+- Wishlist System
+- Coupon System
+- Inventory Analytics
+- Admin Sales Dashboard
+- Recommendation Engine
+- Email Notifications
+- Order Tracking Timeline
+- Multi-Vendor Marketplace
 
 ---
 
 # Author
 
 ## Manas Janapati
-GitHub:
-Add your GitHub profile link here.
+
+GitHub:  
+https://github.com/manasjanapati
 
 ---
 
