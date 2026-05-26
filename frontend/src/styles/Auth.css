@@ -1,0 +1,48 @@
+.auth-container {
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  height: 80vh;
+}
+
+.auth-form {
+
+  background-color: white;
+
+  padding: 30px;
+
+  border-radius: 10px;
+
+  width: 350px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+.auth-form input {
+
+  padding: 10px;
+}
+
+.auth-form button {
+
+  padding: 10px;
+
+  background-color: black;
+
+  color: white;
+
+  border: none;
+}
+
+.error {
+
+  color: red;
+}

@@ -1,0 +1,92 @@
+.admin-categories {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 30px;
+}
+
+.category-form {
+
+  display: flex;
+
+  gap: 15px;
+
+  background-color: white;
+
+  padding: 20px;
+
+  border-radius: 10px;
+}
+
+.category-form input {
+
+  flex: 1;
+
+  padding: 12px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 5px;
+}
+
+.category-form button {
+
+  padding: 12px 20px;
+
+  border: none;
+
+  background-color: black;
+
+  color: white;
+
+  border-radius: 5px;
+}
+
+table {
+
+  width: 100%;
+
+  background-color: white;
+
+  border-collapse: collapse;
+}
+
+th,
+td {
+
+  border: 1px solid #ddd;
+
+  padding: 15px;
+
+  text-align: left;
+}
+
+.edit-btn {
+
+  background-color: orange;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 12px;
+
+  margin-right: 10px;
+
+  border-radius: 5px;
+}
+
+.delete-btn {
+
+  background-color: red;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 12px;
+
+  border-radius: 5px;
+}

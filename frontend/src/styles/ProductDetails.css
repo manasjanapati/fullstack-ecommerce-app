@@ -1,0 +1,213 @@
+.product-details-page {
+
+  padding: 40px;
+
+  background-color: #f5f5f5;
+
+  min-height: 100vh;
+}
+
+.product-details-card {
+
+  display: flex;
+
+  gap: 50px;
+
+  background-color: white;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 4px 20px rgba(0,0,0,0.08);
+
+  align-items: flex-start;
+}
+
+.product-details-card img {
+
+  width: 450px;
+
+  aspect-ratio: 1 / 1;
+
+  object-fit: cover;
+
+  border-radius: 15px;
+}
+
+.product-info {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+
+  flex: 1;
+}
+
+.product-info h1 {
+
+  font-size: 42px;
+
+  font-weight: bold;
+
+  color: #111;
+}
+
+.product-info h2 {
+
+  color: green;
+
+  font-size: 36px;
+}
+
+.category {
+
+  color: gray;
+
+  font-size: 18px;
+}
+
+.description {
+
+  line-height: 1.8;
+
+  font-size: 17px;
+
+  color: #333;
+}
+
+.stock {
+
+  font-weight: bold;
+
+  font-size: 18px;
+}
+
+.product-info button {
+
+  width: 220px;
+
+  padding: 16px;
+
+  border: none;
+
+  background-color: black;
+
+  color: white;
+
+  font-size: 16px;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.product-info button:hover {
+
+  background-color: #222;
+
+  transform: translateY(-2px);
+}
+
+.rating-section {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.rating-section h3 {
+
+  font-size: 24px;
+}
+
+.rating-section p {
+
+  color: gray;
+}
+
+.stars {
+
+  display: flex;
+
+  gap: 8px;
+}
+
+.star {
+
+  font-size: 32px;
+
+  color: lightgray;
+}
+
+.star.active {
+
+  color: gold;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 900px) {
+
+  .product-details-card {
+
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .product-details-card img {
+
+    width: 100%;
+  }
+
+  .product-info {
+
+    width: 100%;
+  }
+
+  .product-info button {
+
+    width: 100%;
+  }
+}
+
+
+.back-btn {
+
+  margin-bottom: 25px;
+
+  padding: 12px 18px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background-color: black;
+
+  color: white;
+
+  font-size: 15px;
+
+  cursor: pointer;
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+.back-btn:hover {
+
+  opacity: 0.9;
+
+  transform: translateX(-3px);
+}

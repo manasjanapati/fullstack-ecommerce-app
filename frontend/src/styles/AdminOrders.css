@@ -1,0 +1,39 @@
+.admin-orders {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.admin-order-card {
+
+  background-color: white;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 15px;
+}
+
+.order-items {
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.admin-order-card select {
+
+  width: 250px;
+
+  padding: 10px;
+}

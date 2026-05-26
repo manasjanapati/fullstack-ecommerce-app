@@ -1,0 +1,45 @@
+.cart-page {
+
+  padding: 30px;
+}
+
+.cart-item {
+
+  background-color: white;
+
+  padding: 20px;
+
+  margin-bottom: 20px;
+
+  border-radius: 10px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.cart-item button {
+
+  background-color: red;
+
+  color: white;
+
+  border: none;
+
+  padding: 10px;
+}
+
+.checkout-btn {
+
+  background-color: green;
+
+  color: white;
+
+  border: none;
+
+  padding: 15px 25px;
+
+  margin-top: 20px;
+}
